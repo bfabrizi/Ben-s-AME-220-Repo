@@ -1,0 +1,106 @@
+
+
+body {
+    background-color: grey;
+}
+
+h2.border { 
+    border-color: blue;
+    border-style: inset;
+    border-radius: 5px;
+    text-align: center;
+    
+    
+}
+
+
+p, h1 {
+    text-align: center;
+    
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+ul, ol {
+    text-align: center;
+    list-style-position: inside;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 8px ridge blue;
+    padding: 5px;
+}
+
+h1 {
+    border-style: inset;
+    border-color: blue;
+    border-width: 5px;
+}
+
+table {
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+  .border {
+    border-style: groove;
+    border-color: red;
+    border-radius: 5px;
+} 
+
+/* buttons for accordians*/ 
+.accordion {
+    background-color: rgb(213, 218, 209);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: inset;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: blue;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+
