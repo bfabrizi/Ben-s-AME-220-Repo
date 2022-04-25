@@ -1,0 +1,11 @@
+{
+	"appId": "com.clock.ap",
+	"appName": "Clock App",
+	"bundledWebRuntime": true,
+	"webDir": "www",
+	"plugins": {
+		"SplashScreen": {
+			"launchShowDuration": 0
+		}
+	}
+}
